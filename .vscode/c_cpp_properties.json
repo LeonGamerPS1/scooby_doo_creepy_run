@@ -4,13 +4,15 @@
             "name": "Nintendo 3DS (Windows)",
             "includePath": [
                 "${workspaceFolder}/**",
-                "d:/devkitPro/libctru/include/**",
-                "d:/devkitPro/devkitARM/arm-none-eabi/include/**"
+                "D:/devkitPro/libctru/include/**",
+                "D:/devkitPro/portlibs/3ds/include/**",
+                  "D:/devkitPro/libctru/include/*",
+                "D:/devkitPro/devkitARM/arm-none-eabi/include/**"
             ],
             "defines": [
                 "__3DS__"
             ],
-            "compilerPath": "d:/devkitPro/devkitARM/bin/arm-none-eabi-gcc.exe",
+            "compilerPath": "D:\\devkitPro\\devkitARM\\bin\\arm-none-eabi-gcc.exe",
             "cStandard": "gnu17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "windows-gcc-arm"
